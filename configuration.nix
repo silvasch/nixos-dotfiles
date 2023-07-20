@@ -50,16 +50,12 @@
     packages = with pkgs; [
       helix
       zellij
-
       rustup
-
       starship
-
       firefox
-
       godot_4
-
       gh
+      lazygit
     ];
   };
 

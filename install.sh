@@ -21,5 +21,5 @@ cp ./dotfiles/zshrc ~/.zshrc
 
 # Sway
 cp -r ./dotfiles/sway ~/.config
-wget -O ~/.config/sway/mandelbrot_gap_green.png https://raw.githubusercontent.com/Gingeh/wallpapers/main/mandelbrot/mandelbrot_gap_green.png
+curl -s https://raw.githubusercontent.com/Gingeh/wallpapers/main/mandelbrot/mandelbrot_gap_green.png > ~/.config/sway/mandelbrot_gap_green.png https://raw.githubusercontent.com/Gingeh/wallpapers/main/mandelbrot/mandelbrot_gap_green.png
 cp -r ./dotfiles/swaylock ~/.config

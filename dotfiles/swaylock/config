@@ -25,3 +25,6 @@ text-caps-lock-color=00000000
 text-ver-color=00000000
 text-wrong-color=00000000
 indicator-idle-visible
+
+indicator-x-pos=150
+indicator-y-pos=150

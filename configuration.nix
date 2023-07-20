@@ -46,6 +46,7 @@
     extraGroups = [
       "networkmanager"
       "wheel"
+      "docker"
     ];
     packages = with pkgs; [
       helix
@@ -56,6 +57,7 @@
       godot_4
       gh
       lazygit
+      zola
     ];
   };
 
@@ -114,6 +116,9 @@
       };
     };
   };
+
+  virtualisation.docker.enable = true;
+
   # Enable the OpenSSH daemon.
   # services.openssh.enable = true;
 

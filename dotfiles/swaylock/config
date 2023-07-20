@@ -28,3 +28,4 @@ indicator-idle-visible
 
 indicator-x-pos=150
 indicator-y-pos=150
+indicator-thickness 20

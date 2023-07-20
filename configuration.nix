@@ -56,8 +56,8 @@
       firefox
       godot_4
       gh
+      gcc
       lazygit
-      zola
     ];
   };
 

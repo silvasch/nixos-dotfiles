@@ -1,0 +1,18 @@
+format = """$battery$directory$git_branch$git_status$character"""
+right_format = """$rust$python$package$cmd_duration"""
+
+[character]
+format = "$symbol "
+success_symbol = """[
+->](bold green)"""
+error_symbol = """[✖
+->](bold red)"""
+
+[package]
+format = '[\(pkg $version\)](blue) '
+
+[rust]
+format = "using [Rust $version](red) "
+
+[python]
+format = "using [Python $version](red) "

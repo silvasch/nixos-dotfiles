@@ -26,7 +26,7 @@ set $browser firefox
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /run/current-system/sw/share/backgrounds/sway/)
-output * bg ./mandelbrot_gap_green.png fill
+output * bg ~/Pictures/Wallpapers/mandelbrot_gap_green.png fill
 #
 # Example configuration:
 #

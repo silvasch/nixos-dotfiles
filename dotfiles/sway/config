@@ -15,7 +15,7 @@ set $term kitty
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
 # on the original workspace that the command was run on.
-set $menu dmenu_run -nb '$base' -sf '$base' -sb '$green' -nf '$subtext1' | xargs swaymsg exec --
+set $menu dmenu_run -p "open: " -nb "$base" -sf "$base" -sb "$green" -nf "$subtext1" -l 3 | xargs swaymsg exec --
 set $browser firefox
 
 ### Output configuration

@@ -35,6 +35,20 @@
     xkbVariant = "";
   };
 
+  sound.enable = true;
+  hardware.pulseaudio = {
+    enable = true;
+    daemon.config = { flat-volumes = "no"; };
+  };
+
+  hardware.bluetooth.enable = true;
+  services.blueman.enable = true;
+  programs.dconf.enable = true;
+  services.dbus.packages = [ pkgs.blueman pkgs.foliate ];
+  hardware.pulseaudio = {
+    package = pkgs.pulseaudioFull;
+  };
+
   # Configure console keymap
   console.keyMap = "sg";
 
@@ -47,6 +61,7 @@
       "networkmanager"
       "wheel"
       "docker"
+      "audio"
     ];
     packages = with pkgs; [
       helix
@@ -80,6 +95,10 @@
 
     unzip
     zip
+
+    openh264
+
+    pamixer
   ];
 
   # Some programs need SUID wrappers, can be configured further or are

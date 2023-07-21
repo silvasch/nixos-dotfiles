@@ -1,5 +1,17 @@
+[language-server.gdscript]
+command = "nc"
+args = [ "127.0.0.1", "6005" ]
+
 [[language]]
 name = "rust"
 
 [language.config.check]
 command = "clippy"
+
+[[language]]
+name = "gdscript"
+
+[language.language-server]
+command = "nc"
+args = [ "127.0.0.1", "6005" ]
+language-id = "gdscript"

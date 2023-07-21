@@ -74,6 +74,8 @@
       gcc
       lazygit
       zola
+      playerctl
+      brightnessctl
     ];
   };
 

@@ -69,6 +69,10 @@
       rustup
       starship
       firefox
+      discord
+      python311
+      python311Packages.pip
+      poetry
       godot_4
       gh
       gcc
@@ -76,6 +80,8 @@
       zola
       playerctl
       brightnessctl
+      zig
+      zls
     ];
   };
 
